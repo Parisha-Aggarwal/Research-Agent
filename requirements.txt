@@ -1,0 +1,24 @@
+# ── LLM & Orchestration ───────────────────────────────────────────────
+google-genai>=2.0.0               # Gemini API SDK (current)
+langgraph>=1.0.0                  # Agent workflow / state machine
+
+# ── Vector Store & Embeddings ─────────────────────────────────────────
+chromadb>=0.5.0                   # Local vector database (no server needed)
+sentence-transformers>=3.0.0      # CPU-friendly local embeddings
+
+# ── Web Search & Scraping ─────────────────────────────────────────────
+ddgs>=9.0.0                       # DuckDuckGo search
+beautifulsoup4>=4.12.0            # HTML parsing / content extraction
+requests>=2.31.0                  # HTTP client for scraping
+
+# ── API & UI ──────────────────────────────────────────────────────────
+fastapi>=0.110.0                  # Lightweight REST API backend
+uvicorn>=0.29.0                   # ASGI server for FastAPI
+streamlit>=1.32.0                 # Frontend UI
+
+# ── Storage ───────────────────────────────────────────────────────────
+# sqlite3 is part of Python stdlib — no install needed
+
+# ── Utilities ─────────────────────────────────────────────────────────
+python-dotenv>=1.0.0              # Load .env API keys
+pydantic>=2.6.0                   # Data validation (used by FastAPI)
